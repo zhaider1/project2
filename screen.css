@@ -37,13 +37,15 @@ body {
 footer {
   color: white;
 }
+
 h1,
 h2,
 p, {
   padding-bottom: 1.222em;
 }
 h1 {
-  padding-bottom: .666em;
+  padding-bottom: 0.666em;
+  padding-top: 0.777em;
   font-size: 1.675em;
   font-weight: bold;
 }
@@ -54,8 +56,8 @@ h2 {
   text-decoration: underline;
   text-align: center;
 }
-li{
-  padding-bottom: .577em;
+li {
+  padding-bottom: 0.577em;
   text-align: center;
 }
 ul {
@@ -67,4 +69,46 @@ video,
 audio, {
   display: block;
   max-width: 100%;
+}
+/* Layout Styles */
+/*
+  Hint: these tend to be
+  1. IDs; but also classes, somtimes
+  2. concerned with layout and spatial relationships
+*/
+
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#navigation li {
+  float: left;
+  width: 33.33333%;
+}
+
+#navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 0.611em;
+  padding-bottom: 0.611em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tent to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+    spacing, color, etc, etc,
+*/
+#navigation ul,
+#navigation li{
+  list-style-type: none;
+  padding bottom: 0;
 }
