@@ -20,3 +20,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   Setting type with a 4:3 modular scale
   http://www.modularscale.com/?18&px&1.333
 */
+html {
+  font-size: 1.125em;
+  line-height: 1.22em;
+  color: black;
+}
+
+body,
+form {
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+
+footer {
+  color: white;
+}
