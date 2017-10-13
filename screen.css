@@ -52,7 +52,9 @@ h1 {
 h2 {
   font-size: 1.55em;
   line-height: 1.04em;
-  padding-top: 0.22em;
+  padding-top: 0.222em;
+  padding-bottom: 0.222em;
+
   text-decoration: underline;
   text-align: center;
 }
@@ -111,4 +113,18 @@ audio, {
 #navigation li{
   list-style-type: none;
   padding bottom: 0;
+}
+
+/* State Styles */
+/*
+  States of the browser and user access
+  conditions.
+  Hint: these tend to be:
+  1. Driven by media queries
+  2. Influenced by JavaScript
+  3. Organized by Base, Layout, Module, State
+*/
+
+#navigation a:hover {
+  background-color: #830303
 }
