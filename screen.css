@@ -23,14 +23,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: "Scary Stories", ScaryStories, fantasy;
   font-size: 1.125em;
-  line-height: 1.22em;
+  line-height: 1.222em;
   color: black;
 }
 
 body {
   padding-top: 2.444em;
   padding-right: 1.222em;
-  padding-left: 1.22em;
+  padding-left: 1.222em;
   background-color: #ee7600;
 }
 
@@ -48,13 +48,13 @@ h1 {
   padding-top: 0.777em;
   font-size: 1.675em;
   font-weight: bold;
+  line-height: 1.0333em;
 }
 h2 {
   font-size: 1.55em;
   line-height: 1.04em;
   padding-top: 0.222em;
   padding-bottom: 0.222em;
-
   text-decoration: underline;
   text-align: center;
 }
