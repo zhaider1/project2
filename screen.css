@@ -21,18 +21,35 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
+  font-family: "Scary Stories", ScaryStories, fantasy;
   font-size: 1.125em;
   line-height: 1.22em;
   color: black;
 }
 
-body,
-form {
-  margin: 0;
-  padding: 0;
-  background-color: orange;
+body {
+  padding-top: 2.444em;
+  padding-right: 1.222em;
+  padding-left: 1.22em;
+  background-color: #ee7600;
 }
 
 footer {
   color: white;
+}
+h1,
+h2,
+h3,
+p, {
+  padding-bottom: 1.222em;
+}
+h1 {
+  padding-bottom: .666em;
+  font-size: 1.675em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.55em;
+  line-height: 1.04em;
+  padding-top: 0.22em;
 }
