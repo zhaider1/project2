@@ -31,7 +31,7 @@ body {
   padding-top: 2.444em;
   padding-right: 1.222em;
   padding-left: 1.222em;
-  background-color: #ee7600;
+  background-color: #ee7600; /* orange gradiant */
 }
 
 footer {
@@ -83,6 +83,17 @@ audio {
   top: 0;
   left: 0;
 }
+
+#navigation a:hover {
+  background-color: #830303
+}
+/* current page nav bar */
+#home #nav-home a,
+#resume #nav-resume a,
+#interests #nav-interests a {
+  background-color: green;
+}
+
 #navigation li {
   float: left;
   width: 33.33333%;
@@ -91,13 +102,15 @@ audio {
 #navigation a {
   display: block;
   width: 100%;
-  padding-top: 0.611em;
+  padding-top: 0.611em; /*11/18 */
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
   color: white;
   background-color: black;
 }
+
+
 
 /* Modular Styles */
 /*
@@ -122,10 +135,6 @@ audio {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-
-#navigation a:hover {
-  background-color: #830303
-}
 
 @media screen and (min-width:375px) {
   body {
@@ -155,4 +164,5 @@ audio {
     float: left;
     padding-left: 5%;
   }
+  
 }
