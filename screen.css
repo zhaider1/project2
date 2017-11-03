@@ -21,7 +21,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-family: "Scary Stories", ScaryStories, fantasy;
+  font-family: Georgia, sans-serif;
   font-size: 1.125em;
   line-height: 1.222em;
   color: black;
@@ -56,11 +56,9 @@ h2 {
   padding-top: 0.222em;
   padding-bottom: 0.222em;
   text-decoration: underline;
-  text-align: center;
 }
 li {
   padding-bottom: 0.577em;
-  text-align: center;
 }
 ul {
   list-style-type: none;
@@ -68,7 +66,7 @@ ul {
 }
 img,
 video,
-audio, {
+audio {
   display: block;
   max-width: 100%;
 }
@@ -127,4 +125,11 @@ audio, {
 
 #navigation a:hover {
   background-color: #830303
+}
+
+@media screen and (min-width:375px) {
+  body {
+    padding-right: 11.7333333% /* 44/375 */
+    padding-left: 11.7333333% /* 44/375 */
+  }
 }
