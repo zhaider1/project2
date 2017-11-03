@@ -40,7 +40,7 @@ footer {
 
 h1,
 h2,
-p, {
+p {
   padding-bottom: 1.222em;
 }
 h1 {
@@ -91,7 +91,7 @@ audio {
 #home #nav-me a,
 #resume #nav-res a,
 #interests #nav-int a {
-  color: #white;
+  color: white;
   background-color: green;
 }
 
@@ -122,9 +122,9 @@ audio {
     spacing, color, etc, etc,
 */
 #navigation ul,
-#navigation li{
+#navigation li {
   list-style-type: none;
-  padding bottom: 0;
+  padding-bottom: 0;
 }
 
 .flexbox #navigation ol {
@@ -159,7 +159,7 @@ audio {
   #primary,
   #header {
     width: 100%;
-    float: center;
+    float;
     text-align: center;
   }
 
