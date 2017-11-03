@@ -126,6 +126,13 @@ audio {
   padding bottom: 0;
 }
 
+.flexbox #navigation ol {
+  display: flex;
+}
+.flexbox #navigation li {
+  float: none;
+}
+
 /* State Styles */
 /*
   States of the browser and user access
@@ -164,5 +171,10 @@ audio {
     float: left;
     padding-left: 5%;
   }
-  
+  .flexbox #content {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: auto;
+  }
 }
