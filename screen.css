@@ -88,9 +88,9 @@ audio {
   background-color: #830303
 }
 /* current page nav bar */
-#home #nav-home a,
-#resume #nav-resume a,
-#interests #nav-interests a {
+#home #nav-me a,
+#resume #nav-res a,
+#interests #nav-int a {
   background-color: green;
 }
 
