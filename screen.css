@@ -129,7 +129,30 @@ audio {
 
 @media screen and (min-width:375px) {
   body {
-    padding-right: 11.7333333% /* 44/375 */
-    padding-left: 11.7333333% /* 44/375 */
+    padding-right: 11.7333333%; /* 44/375 */
+    padding-left: 11.7333333%; /* 44/375 */
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 1.25em;  /* 20/16=1.25 */
+  }
+}
+@media screen and (min-width: 860px) {
+  #primary,
+  #header {
+    width: 100%;
+    float: center;
+    text-align: center;
+  }
+
+  #videogames {
+    width: 47.5%;
+    float:left;
+  }
+  #shows {
+    width: 47.5%;
+    float: left;
+    padding-left: 5%;
   }
 }
