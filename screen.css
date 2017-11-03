@@ -91,6 +91,7 @@ audio {
 #home #nav-me a,
 #resume #nav-res a,
 #interests #nav-int a {
+  color: #white;
   background-color: green;
 }
 
